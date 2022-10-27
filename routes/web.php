@@ -5,8 +5,8 @@ use App\Http\Controllers\ContactsController;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\ImagesController;
 use App\Http\Controllers\OrganizationsController;
-use App\Http\Controllers\ReportsController;
 use App\Http\Controllers\UsersController;
+use App\Http\Controllers\WeatherLocationsController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -131,8 +131,8 @@ Route::put('contacts/{contact}/restore', [ContactsController::class, 'restore'])
 
 // Reports
 
-Route::get('reports', [ReportsController::class, 'index'])
-    ->name('reports')
+Route::get('weather-locations', [WeatherLocationsController::class, 'index'])
+    ->name('weather-locations')
     ->middleware('auth');
 
 // Images
