@@ -17,6 +17,7 @@ class CreateWeatherLocationsTable extends Migration
             $table->id();
             $table->decimal('latitude', 8, 6);
             $table->decimal('longitude', 9, 6);
+            $table->string('forecast_url');
             $table->dateTime('last_fetched_at')->nullable();
             $table->timestamps();
         });
