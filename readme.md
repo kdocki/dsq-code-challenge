@@ -7,7 +7,7 @@ Requirements provided live.
 Clone the repo locally:
 
 ```sh
-git clone https://github.com/markpruett571/code-challenge.git code-challenge
+git clone https://github.com/dsq-technology/code-challenge.git code-challenge
 cd code-challenge
 ```
 
